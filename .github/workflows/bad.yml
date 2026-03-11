@@ -1,0 +1,13 @@
+name: Bad
+ 
+on: [push]
+ 
+jobs:
+  all:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "install"
+      - run: echo "Test"
+      - run: echo "Build"
+      - run: echo "Deploy"
+ 
