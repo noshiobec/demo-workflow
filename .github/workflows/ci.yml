@@ -5,5 +5,5 @@ on:
    branches: [main]
  
 jobs:
-  call-build
+  call-build:
     uses: ./.github/workflows/build.yml 
